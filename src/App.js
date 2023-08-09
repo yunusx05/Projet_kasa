@@ -1,9 +1,24 @@
+import { createBrowserRouter, RouterProvider} from 'react-router-dom'
+
 import './App.css';
+import Home from './pages/home.js'
+import Apropos from './pages/about.js'
+
+const router = createBrowserRouter([
+  {
+    path : "/", 
+    element :  <Home />
+  }, 
+  {
+    path: "about",
+    element:   <Apropos />
+  }
+])
 
 function App() {
   return (
     <div className="App">
-      <h1> Bienvenu sur kasa frontend </h1> 
+      <RouterProvider router = { router } />
     </div>
   );
 }
