@@ -5,7 +5,7 @@ import Footer from '../components/footer'
 const About = () =>{
 
     return(
-       <div className="container">
+       <div className="general_container">
             < Header />
 
             <Footer />

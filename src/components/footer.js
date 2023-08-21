@@ -4,7 +4,8 @@ const Footer = () =>{
 
     return(
        <div className="footer">
-            <h1>Footer</h1>
+            <img src="/logo-bw.png" alt="" />
+            <h1>© 2020 Kasa. All rights reserved</h1>
        </div>
     )
 }
